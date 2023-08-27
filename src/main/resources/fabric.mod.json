@@ -23,6 +23,9 @@
     ],
     "cilent": [
       "net.kaijane.devmod.DevModClient"
+    ],
+    "fabric-datagen": [
+      "net.kaijane.devmod.DevModDataGenerator"
     ]
   },
   "mixins": [
