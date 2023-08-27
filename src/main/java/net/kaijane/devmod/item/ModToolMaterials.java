@@ -3,13 +3,10 @@
  */
 package net.kaijane.devmod.item;
 
-import java.util.function.Supplier;
-import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.tag.ItemTags;
-import net.minecraft.util.Lazy;
+
+import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial
 {

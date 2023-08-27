@@ -2,11 +2,10 @@ package net.kaijane.devmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.kaijane.devmod.item.ModHoeItem;
+import net.kaijane.devmod.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import net.kaijane.devmod.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataGenerator output) {
@@ -15,6 +14,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
 
     }
 
