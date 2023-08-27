@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "devmod:yellorium_block"
+    }
+  ],
+  "result": {
+    "item": "devmod:yellorium",
+    "count": 9
+  }
+}
