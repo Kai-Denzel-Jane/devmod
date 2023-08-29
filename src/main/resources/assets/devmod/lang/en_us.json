@@ -5,6 +5,8 @@
 
   "block.devmod.yellorium_ore": "Yellorium Ore",
 
+  "item.devmod.yellorium_sword": "Yellorium Sword",
+
   "item.devmod.yellorium_pickaxe": "Yellorium Pickaxe",
 
   "item.devmod.yellorium_axe": "Yellorium Axe",
@@ -13,6 +15,10 @@
 
   "item.devmod.yellorium_hoe": "Yellorium Hoe",
 
-  "itemGroup.devmod.yellorium": "Yellorium Mod"
+  "itemGroup.devmod.yellorium": "Yellorium Mod",
 
+  "item.devmod.yellorium_helmet": "Yellorium Crown",
+  "item.devmod.yellorium_chestplate": "Yellorium Chestplate",
+  "item.devmod.yellorium_leggings": "Yellorium Leggings",
+  "item.devmod.yellorium_boots": "Yellorium Boots"
 }

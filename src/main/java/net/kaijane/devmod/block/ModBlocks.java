@@ -19,6 +19,9 @@ public class ModBlocks {
     public static final Block YELLORIUM_ORE = registerBlock("yellorium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.YELLORIUM);
 
+    public static final Block ACTIVATED_YELLORIUM_ORE = registerBlock("activated_yellorium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.YELLORIUM);
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(DevMod.MOD_ID, name), block);
