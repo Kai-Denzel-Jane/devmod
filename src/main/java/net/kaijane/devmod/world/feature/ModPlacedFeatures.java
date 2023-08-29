@@ -11,7 +11,11 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final RegistryEntry<PlacedFeature> YELLORIUM_ORE_PLACED = PlacedFeatures.register("yellorium_ore_placed",
-            ModConfiguredFeatures.YELLORIUM_ORE, modifiersWithCount(9,
+            ModConfiguredFeatures.YELLORIUM_ORE, modifiersWithCount(7,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
+
+    public static final RegistryEntry<PlacedFeature> ACTIVATED_YELLORIUM_ORE_PLACED = PlacedFeatures.register("activated_yellorium_ore_placed",
+            ModConfiguredFeatures.ACTIVATED_YELLORIUM_ORE, modifiersWithCount(3,
                     HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
 
     private static List<PlacementModifier> modifiers(PlacementModifier countModifier, PlacementModifier heightModifier) {

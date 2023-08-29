@@ -34,7 +34,7 @@ public class ModItems {
     public static final Item YELLORIUM_BOOTS = registerItem("yellorium_boots", new ArmorItem(ModArmorMaterials.YELLORIUM, EquipmentSlot.FEET,
             new FabricItemSettings().group(ModItemGroup.YELLORIUM)));
 
-    public static final Item ACTIVATED_YELLORIUM_INGOt = registerItem("activated_yellorium_ingot", new Item(new FabricItemSettings().group(ModItemGroup.YELLORIUM)));
+    public static final Item ACTIVATED_YELLORIUM_INGOT = registerItem("activated_yellorium_ingot", new Item(new FabricItemSettings().group(ModItemGroup.YELLORIUM)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DevMod.MOD_ID, name), item);

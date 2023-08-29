@@ -1,9 +1,13 @@
 {
   "item.devmod.yellorium": "Yellorium",
 
+  "item.devmod.activated_yellorium_ingot": "Activated Yellorium Ingot",
+
   "block.devmod.yellorium_block": "Block of Yellorium",
 
   "block.devmod.yellorium_ore": "Yellorium Ore",
+
+  "block.devmod.activated_yellorium_ore": "Activated Yellorium Ore",
 
   "item.devmod.yellorium_sword": "Yellorium Sword",
 

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:yellorium_from_smelting_yellorium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellorium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "devmod:yellorium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellorium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:yellorium_from_smelting_yellorium_ore"
+    ]
+  }
+}

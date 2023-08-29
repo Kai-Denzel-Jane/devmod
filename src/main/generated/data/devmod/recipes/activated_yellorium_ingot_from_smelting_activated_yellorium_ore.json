@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 150,
+  "experience": 3.0,
+  "group": "yellorium",
+  "ingredient": {
+    "item": "devmod:activated_yellorium_ore"
+  },
+  "result": "devmod:activated_yellorium_ingot"
+}

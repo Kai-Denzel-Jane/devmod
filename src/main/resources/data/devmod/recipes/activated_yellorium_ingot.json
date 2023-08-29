@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "devmod:yellorium"
+    },
+    {
+      "item": "devmod:yellorium"
+    },
+    {
+      "item": "devmod:yellorium"
+    },
+    {
+      "item": "devmod:yellorium"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "devmod:activated_yellorium_ingot"
+  }
+}

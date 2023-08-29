@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.YELLORIUM_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.YELLORIUM_ORE);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ACTIVATED_YELLORIUM_ORE);
 
 
     }
@@ -28,6 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.YELLORIUM, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ACTIVATED_YELLORIUM_INGOT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.YELLORIUM_SWORD, Models.HANDHELD);
 

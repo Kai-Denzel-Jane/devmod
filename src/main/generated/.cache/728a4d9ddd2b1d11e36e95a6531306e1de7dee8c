@@ -1,0 +1,4 @@
+// 1.19.2	2023-08-29T17:05:17.362262	minecraft:block Loot Table
+b6df05b5eb742f7295a0e31e6a1b1fa003dcad49 data\devmod\loot_tables\blocks\yellorium_ore.json
+4156d9f7b003dbeaf99fbac10282b860b49b6387 data\devmod\loot_tables\blocks\activated_yellorium_ore.json
+7f9ab437f952dead3ce238297db0db2f94870b98 data\devmod\loot_tables\blocks\yellorium_block.json
