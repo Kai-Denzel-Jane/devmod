@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.kaijane.devmod.block.ModBlocks;
 import net.kaijane.devmod.item.ModItems;
+import net.kaijane.devmod.util.ModModelPredicateProvider;
 import net.kaijane.devmod.world.feature.ModConfiguredFeatures;
 import net.kaijane.devmod.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
@@ -21,5 +22,7 @@ public class DevMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModOreGeneration.generateOres();
+
+		ModModelPredicateProvider.registerModModels();
 	}
 }

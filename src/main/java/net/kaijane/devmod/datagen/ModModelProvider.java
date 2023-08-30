@@ -42,6 +42,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.YELLORIUM_HOE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.YELLORIUM_BOW, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.YELLORIUM_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.YELLORIUM_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.YELLORIUM_LEGGINGS, Models.GENERATED);

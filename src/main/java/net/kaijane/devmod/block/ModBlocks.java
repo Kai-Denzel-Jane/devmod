@@ -13,15 +13,22 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
+
+    // General Blocks
     public static final Block YELLORIUM_BLOCK = registerBlock("yellorium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.YELLORIUM);
 
+    // Ores
     public static final Block YELLORIUM_ORE = registerBlock("yellorium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.YELLORIUM);
+
+    public static final Block DEEPSLATE_YELLORIUM_ORE = registerBlock("deepslate_yellorium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.YELLORIUM);
 
     public static final Block ACTIVATED_YELLORIUM_ORE = registerBlock("activated_yellorium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.YELLORIUM);
 
+    // Registers and Logging
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(DevMod.MOD_ID, name), block);

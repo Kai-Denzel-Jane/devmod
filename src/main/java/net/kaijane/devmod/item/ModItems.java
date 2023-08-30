@@ -12,6 +12,8 @@ public class ModItems {
     public static final Item YELLORIUM = registerItem("yellorium",
             new Item(new FabricItemSettings().group(ModItemGroup.YELLORIUM)));
 
+    public static final Item YELLORIUM_BOW = registerItem("yellorium_bow", new BowItem(new FabricItemSettings().group(ModItemGroup.YELLORIUM).maxDamage(640)));
+
     public static final Item YELLORIUM_SWORD = registerItem("yellorium_sword", new SwordItem(ModToolMaterials.YELLORIUM, 6, -2.4F, new FabricItemSettings().group(ModItemGroup.YELLORIUM)));
 
     public static final Item YELLORIUM_PICKAXE = registerItem("yellorium_pickaxe", new PickaxeItem(ModToolMaterials.YELLORIUM, 1, -2.8F, new FabricItemSettings().group(ModItemGroup.YELLORIUM)));
